@@ -1,0 +1,8 @@
+{
+  "requests": 100,
+  "mean_latency_ms": 1.077,
+  "median_latency_ms": 1.235,
+  "p95_latency_ms": 1.693,
+  "max_latency_ms": 1.937,
+  "measurement_scope": "Local answer_question execution only"
+}
