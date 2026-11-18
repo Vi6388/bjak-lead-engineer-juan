@@ -25,10 +25,11 @@ KNOWN_EMPLOYERS = {
 # Detect explicit employer claims in yes/no questions.
 EMPLOYER_PATTERN = re.compile(
     r"\b(?:work|worked|employed|employment)\b"
-    r".{0,45}?\b(?:at|for|with)\s+"
+    r".{0,45}?\b(?:at|for)\s+"
     r"([a-z][a-z0-9'&.\- ]+)",
     re.IGNORECASE,
 )
+
 
 INJECTION_PATTERNS = [
     r"ignore (?:all |your |the )?(?:previous |prior )?instructions",

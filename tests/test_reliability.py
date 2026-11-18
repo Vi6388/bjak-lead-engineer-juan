@@ -1,6 +1,7 @@
 
 from answer_engine import answer_question
 from retrieval import retrieve
+from answer_engine import check_employer_question
 
 def test_unknown_employer_refusal():
     result = answer_question("Did you work at Google?")
@@ -63,3 +64,32 @@ def test_supported_software_experience_still_works():
     assert result["status"] == "answered"
     assert result["citations"]
 
+
+
+def test_e10_stakeholder_question_not_employment():
+    question = (
+        "How did you work with stakeholders "
+        "at Chewy and Drawboard?"
+    )
+
+    # Collaboration must not be mistaken for
+    # employment verification.
+    assert check_employer_question(question) is None
+
+
+def test_e10_returns_supported_answer():
+    question = (
+        "How did you work with stakeholders "
+        "at Chewy and Drawboard?"
+    )
+
+    result = answer_question(question)
+
+    assert result["status"] == "answered"
+
+
+def test_unknown_employer_still_refused():
+    result = answer_question("Did you work at Google?")
+
+    assert result["status"] == "unsupported"
+    assert result["citations"] == []

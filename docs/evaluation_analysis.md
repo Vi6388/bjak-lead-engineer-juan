@@ -105,3 +105,24 @@ Remaining limitation:
 Stop-word filtering is a heuristic. It does not
 provide semantic entailment or comprehensive
 protection against unrelated answers.
+
+## E10 — Stakeholder collaboration misclassified
+
+Expected: answered
+Baseline observed: unsupported
+
+Root cause:
+The employer-detection regex included "with",
+causing collaboration questions to be treated
+as employment-verification questions.
+
+Fix:
+Restricted the employer-verification regex to
+"at" and "for".
+
+Retest:
+[Insert measured result]
+
+Remaining limitation:
+Multi-employer retrieval may still omit one
+of the employers requested.
