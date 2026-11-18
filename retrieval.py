@@ -10,9 +10,6 @@ STOP_WORDS = {
     "on", "or", "the", "their", "to", "was", "were",
     "what", "which", "who", "with", "you", "your",
     "about", "tell", "please", "experience",
-
-    # Generic question/action terms are not evidence
-    # of a specific professional capability.
     "build", "built", "building",
     "software", "application", "applications",
 }
