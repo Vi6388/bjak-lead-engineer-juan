@@ -14,11 +14,24 @@ STOP_WORDS = {
     "software", "application", "applications",
 }
 
+TOKEN_ALIASES = {
+    "testing": "test",
+    "tests": "test",
+    "tested": "test",
+    "tools": "tool",
+    "used": "use",
+    "using": "use",
+    "automated": "automation",
+    "automating": "automation",
+}
+
 
 def tokenize(text):
     words = re.findall(r"[a-z0-9+#.]+", text.lower())
+
     return [
-        word for word in words
+        TOKEN_ALIASES.get(word, word)
+        for word in words
         if word not in STOP_WORDS and len(word) > 1
     ]
 
