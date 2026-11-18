@@ -1,7 +1,540 @@
-
 {
   "schema_version": "1.0",
-  "sources": [],
-  "facts": [],
-  "conflicts": []
+  "sources": [
+    {
+      "id": "cv-page-1",
+      "type": "resume",
+      "title": "Juan Ramos Full Stack Developer CV — page 1",
+      "file": "data/sources/Juan_Ramos_Full_Stack_Developer_redacted.pdf",
+      "page": 1,
+      "status": "source_file_to_be_added",
+      "synthetic": false
+    },
+    {
+      "id": "cv-page-2",
+      "type": "resume",
+      "title": "Juan Ramos Full Stack Developer CV — page 2",
+      "file": "data/sources/Juan_Ramos_Full_Stack_Developer_redacted.pdf",
+      "page": 2,
+      "status": "source_file_to_be_added",
+      "synthetic": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-001",
+      "category": "professional_summary",
+      "text": "Juan Paolo Ramos is described in the CV as a Full Stack Developer with 7 years of experience designing, building, and delivering web and cross-platform applications end to end.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "summary",
+        "experience"
+      ]
+    },
+    {
+      "id": "fact-002",
+      "category": "professional_summary",
+      "text": "The CV identifies React, Angular, and TypeScript as frontend strengths.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "frontend",
+        "react",
+        "angular",
+        "typescript"
+      ]
+    },
+    {
+      "id": "fact-003",
+      "category": "professional_summary",
+      "text": "The CV identifies Node.js and Python as backend service technologies.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "backend",
+        "node",
+        "python"
+      ]
+    },
+    {
+      "id": "fact-004",
+      "category": "professional_summary",
+      "text": "The CV identifies PostgreSQL, MySQL, NoSQL, and Supabase for data management.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "database"
+      ]
+    },
+    {
+      "id": "fact-005",
+      "category": "professional_summary",
+      "text": "The CV describes AWS experience in cloud infrastructure, deployment, and scalable application development.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "aws",
+        "cloud"
+      ]
+    },
+    {
+      "id": "fact-006",
+      "category": "professional_summary",
+      "text": "The CV describes building and maintaining CI/CD pipelines for automated testing, integration, deployment, and release workflows.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "devops",
+        "ci-cd"
+      ]
+    },
+    {
+      "id": "fact-007",
+      "category": "professional_summary",
+      "text": "The CV describes implementing row-level security, database triggers, and audit logging.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "security",
+        "database"
+      ]
+    },
+    {
+      "id": "fact-008",
+      "category": "professional_summary",
+      "text": "The CV describes third-party REST API and webhook integrations and real-time data synchronization.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "integrations",
+        "api"
+      ]
+    },
+    {
+      "id": "fact-009",
+      "category": "professional_summary",
+      "text": "The CV describes AI-assisted development and production-ready LLM-powered features.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "fact-010",
+      "category": "professional_summary",
+      "text": "The CV describes translating complex business requirements into technical solutions for non-technical stakeholders.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "stakeholders",
+        "communication"
+      ]
+    },
+    {
+      "id": "fact-011",
+      "category": "skills",
+      "text": "The CV lists these frontend skills: React, Angular, Vue.js, Next.js, TypeScript, Tailwind CSS, React Native / Expo, Electron, responsive and mobile-first UI.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "frontend",
+        "skills"
+      ]
+    },
+    {
+      "id": "fact-012",
+      "category": "skills",
+      "text": "The CV lists these backend skills: Node.js, Express, NestJS, Java, Python, FastAPI, REST APIs, GraphQL, webhooks and event-trigger systems.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "backend",
+        "skills"
+      ]
+    },
+    {
+      "id": "fact-013",
+      "category": "skills",
+      "text": "The CV lists these cloud skills: AWS Lambda, EC2, S3, ECS, IAM and CloudWatch; Google Cloud; Azure.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "cloud",
+        "skills"
+      ]
+    },
+    {
+      "id": "fact-014",
+      "category": "skills",
+      "text": "The CV lists these databases skills: PostgreSQL, Supabase Auth, row-level security, Realtime, Edge Functions, database triggers, functions, append-only audit design, MySQL, MongoDB and Redis.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "databases",
+        "skills"
+      ]
+    },
+    {
+      "id": "fact-015",
+      "category": "skills",
+      "text": "The CV lists these devops skills: Docker, Kubernetes, Terraform, CI/CD, Linux and deployment automation.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "devops",
+        "skills"
+      ]
+    },
+    {
+      "id": "fact-016",
+      "category": "skills",
+      "text": "The CV lists these integrations skills: Third-party REST APIs, webhook and email-parsing pipelines, CRM/automation APIs, Twilio SMS/voice, Google Calendar API, Stripe/payment-link APIs.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "integrations",
+        "skills"
+      ]
+    },
+    {
+      "id": "fact-017",
+      "category": "skills",
+      "text": "The CV lists these security skills: OpenID Connect, OAuth2, JWT, role-based access control, least privilege, audit trails and secure SDLC.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "security",
+        "skills"
+      ]
+    },
+    {
+      "id": "fact-018",
+      "category": "skills",
+      "text": "The CV lists these ai skills: OpenAI and Anthropic APIs, RAG pipelines, natural-language querying, structured output validation, Claude Code, Cursor and GitHub Copilot.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "ai",
+        "skills"
+      ]
+    },
+    {
+      "id": "fact-019",
+      "category": "skills",
+      "text": "The CV lists these testing skills: Pytest, Jest, Playwright, TDD, Git, Jira, documentation and maintenance guides.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "testing",
+        "skills"
+      ]
+    },
+    {
+      "id": "fact-020",
+      "category": "employment",
+      "text": "Chewy: Senior Full-Stack Developer - Web, AI and Integrations (2023–2026).",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "chewy",
+        "employment",
+        "dates"
+      ]
+    },
+    {
+      "id": "fact-021",
+      "category": "project",
+      "text": "At Chewy, the stated project was unified AI-assisted product front ends connected to Node and Python services on PostgreSQL.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "chewy",
+        "project"
+      ]
+    },
+    {
+      "id": "fact-022",
+      "category": "work_experience",
+      "text": "At Chewy, built responsive React and Next.js front ends over Node.js and Python FastAPI back ends for customer-facing and internal workflows.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "chewy",
+        "react",
+        "nextjs",
+        "fastapi"
+      ]
+    },
+    {
+      "id": "fact-023",
+      "category": "work_experience",
+      "text": "At Chewy, integrated third-party REST APIs, webhooks, and MCP fulfilment servers, handling contacts, conversations, and event-driven automations across services.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "chewy",
+        "integrations",
+        "mcp"
+      ]
+    },
+    {
+      "id": "fact-024",
+      "category": "work_experience",
+      "text": "At Chewy, modeled PostgreSQL and pgvector schemas with row-level security and audit-oriented design to scope access by role.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "chewy",
+        "postgresql",
+        "pgvector",
+        "security"
+      ]
+    },
+    {
+      "id": "fact-025",
+      "category": "work_experience",
+      "text": "At Chewy, shipped RAG-grounded natural-language querying and token-streamed responses as production AI features.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "chewy",
+        "rag",
+        "llm",
+        "ai"
+      ]
+    },
+    {
+      "id": "fact-026",
+      "category": "work_experience",
+      "text": "At Chewy, added real-time updates and OpenTelemetry tracing to support multi-user changes and debug non-deterministic failures under load.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "chewy",
+        "observability",
+        "opentelemetry"
+      ]
+    },
+    {
+      "id": "fact-027",
+      "category": "work_experience",
+      "text": "At Chewy, drove pytest and Playwright test automation, documented setup and maintenance, and refined features with product stakeholders.",
+      "source_ids": [
+        "cv-page-1"
+      ],
+      "tags": [
+        "chewy",
+        "testing",
+        "stakeholders"
+      ]
+    },
+    {
+      "id": "fact-028",
+      "category": "employment",
+      "text": "Nature's Path Foods: Full-Stack Engineer - Pricing, CRM and Integrations (2021–2023).",
+      "source_ids": [
+        "cv-page-2"
+      ],
+      "tags": [
+        "natures-path",
+        "employment",
+        "dates"
+      ]
+    },
+    {
+      "id": "fact-029",
+      "category": "project",
+      "text": "At Nature's Path Foods, the stated project was a Price Management SaaS and merchant CRM with third-party and finance integration.",
+      "source_ids": [
+        "cv-page-2"
+      ],
+      "tags": [
+        "natures-path",
+        "project"
+      ]
+    },
+    {
+      "id": "fact-030",
+      "category": "work_experience",
+      "text": "At Nature's Path Foods, built configurable price management software with dynamic data-driven pricing calculations for sales quotes instead of manual spreadsheets.",
+      "source_ids": [
+        "cv-page-2"
+      ],
+      "tags": [
+        "natures-path",
+        "pricing",
+        "saas"
+      ]
+    },
+    {
+      "id": "fact-031",
+      "category": "work_experience",
+      "text": "At Nature's Path Foods, integrated a merchant CRM bidirectionally with finance and supply-chain systems using REST and OData to synchronize contacts and transactions and automate month-end reconciliation.",
+      "source_ids": [
+        "cv-page-2"
+      ],
+      "tags": [
+        "natures-path",
+        "crm",
+        "odata",
+        "integrations"
+      ]
+    },
+    {
+      "id": "fact-032",
+      "category": "work_experience",
+      "text": "At Nature's Path Foods, implemented OpenID Connect, SAML SSO, role-based access, and LDAP / Active Directory integration for least-privilege access.",
+      "source_ids": [
+        "cv-page-2"
+      ],
+      "tags": [
+        "natures-path",
+        "security",
+        "sso"
+      ]
+    },
+    {
+      "id": "fact-033",
+      "category": "work_experience",
+      "text": "At Nature's Path Foods, integrated third-party services using Oracle Service Bus, JMS, SOAP and REST interfaces.",
+      "source_ids": [
+        "cv-page-2"
+      ],
+      "tags": [
+        "natures-path",
+        "integrations",
+        "oracle"
+      ]
+    },
+    {
+      "id": "fact-034",
+      "category": "employment",
+      "text": "Drawboard: Full-Stack Developer - Client Application Delivery (2020–2021).",
+      "source_ids": [
+        "cv-page-2"
+      ],
+      "tags": [
+        "drawboard",
+        "employment",
+        "dates"
+      ]
+    },
+    {
+      "id": "fact-035",
+      "category": "project",
+      "text": "At Drawboard, the stated project was a business-critical client application and services supporting 10k+ users.",
+      "source_ids": [
+        "cv-page-2"
+      ],
+      "tags": [
+        "drawboard",
+        "project"
+      ]
+    },
+    {
+      "id": "fact-036",
+      "category": "work_experience",
+      "text": "At Drawboard, delivered and supported a cross-platform client application for 10k+ users, emphasizing performance and offline-capable field use.",
+      "source_ids": [
+        "cv-page-2"
+      ],
+      "tags": [
+        "drawboard",
+        "cross-platform",
+        "users"
+      ]
+    },
+    {
+      "id": "fact-037",
+      "category": "work_experience",
+      "text": "At Drawboard, owned 24x7 reliability using real-time monitoring, change control, and rehearsed rollback.",
+      "source_ids": [
+        "cv-page-2"
+      ],
+      "tags": [
+        "drawboard",
+        "reliability",
+        "monitoring"
+      ]
+    },
+    {
+      "id": "fact-038",
+      "category": "work_experience",
+      "text": "At Drawboard, collaborated with stakeholders on change scope, mentored new team members, and maintained handover documentation.",
+      "source_ids": [
+        "cv-page-2"
+      ],
+      "tags": [
+        "drawboard",
+        "mentoring",
+        "leadership"
+      ]
+    },
+    {
+      "id": "fact-039",
+      "category": "education",
+      "text": "The CV lists Nanyang Technological University, Bachelor of Computer Science (BCompSc), 2020.",
+      "source_ids": [
+        "cv-page-2"
+      ],
+      "tags": [
+        "education",
+        "degree"
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "gap-001",
+      "type": "missing_detail",
+      "topic": "engineering management scope",
+      "description": "The CV documents mentoring new team members at Drawboard but does not specify formal people-management responsibility, number of direct reports, or hiring authority.",
+      "source_ids": [
+        "cv-page-2"
+      ],
+      "resolution": "Do not claim formal engineering manager experience or a team size without additional verified evidence.",
+      "status": "unresolved"
+    },
+    {
+      "id": "gap-002",
+      "type": "missing_detail",
+      "topic": "employment dates",
+      "description": "Employment periods are specified by year only, not by month. Exact durations and whether roles overlapped cannot be established from the CV.",
+      "source_ids": [
+        "cv-page-1",
+        "cv-page-2"
+      ],
+      "resolution": "Quote the year ranges as written and do not infer exact start/end months.",
+      "status": "unresolved"
+    }
+  ]
 }
