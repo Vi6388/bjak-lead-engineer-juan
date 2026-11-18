@@ -65,3 +65,43 @@ Retest result: [Measured result]
 - Expand adversarial regression testing.
 - Add confidence calibration and clarification handling.
 - Monitor retrieval and refusal errors over time.
+
+
+## Failure E21 — Unsupported Domain Question
+
+Question:
+Have you built quantum astrophysics software?
+
+Expected:
+unsupported
+
+Baseline observed:
+answered
+
+Baseline answer:
+The assistant returned an unrelated price-management
+software fact from Nature's Path Foods.
+
+Root cause:
+The lexical retrieval algorithm treated generic terms
+such as "built" and "software" as relevant evidence.
+The answer engine then accepted the result based on
+token coverage, without checking whether the
+distinctive technical domain was supported.
+
+Implemented mitigation:
+Excluded generic software-development action and
+artifact terms from retrieval matching.
+
+Regression tests:
+- Unsupported quantum astrophysics question
+- No irrelevant retrieval results
+- Supported React experience remains answerable
+
+Retest result:
+[Enter actual result after running evaluation]
+
+Remaining limitation:
+Stop-word filtering is a heuristic. It does not
+provide semantic entailment or comprehensive
+protection against unrelated answers.

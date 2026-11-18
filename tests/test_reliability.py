@@ -1,6 +1,6 @@
 
 from answer_engine import answer_question
-
+from retrieval import retrieve
 
 def test_unknown_employer_refusal():
     result = answer_question("Did you work at Google?")
@@ -35,3 +35,31 @@ def test_no_sensitive_error_details():
 
     assert result["status"] == "invalid"
     assert "Traceback" not in result["answer"]
+
+
+def test_e21_quantum_astrophysics_refusal():
+    question = "Have you built quantum astrophysics software?"
+
+    result = answer_question(question)
+
+    assert result["status"] == "unsupported"
+    assert result["citations"] == []
+    assert "cannot verify" in result["answer"].lower()
+
+
+def test_e21_no_irrelevant_retrieval():
+    results = retrieve(
+        "Have you built quantum astrophysics software?"
+    )
+
+    assert results == []
+
+
+def test_supported_software_experience_still_works():
+    result = answer_question(
+        "What is your experience with React?"
+    )
+
+    assert result["status"] == "answered"
+    assert result["citations"]
+

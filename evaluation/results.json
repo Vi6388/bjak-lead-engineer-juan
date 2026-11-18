@@ -1,16 +1,16 @@
 {
   "summary": {
     "total": 26,
-    "passed": 19,
-    "full_case_pass_rate": 0.7308,
-    "status_accuracy": 0.8462,
+    "passed": 21,
+    "full_case_pass_rate": 0.8077,
+    "status_accuracy": 0.9231,
     "citation_presence": 1.0,
     "extractive_format_proxy": 1.0,
-    "refusal_correctness": 0.9286,
+    "refusal_correctness": 1.0,
     "prohibited_claim_check_rate": 1.0,
-    "p95_latency_ms": 1.4,
+    "p95_latency_ms": 1.89,
     "pass_bar_status_accuracy": 0.85,
-    "meets_status_accuracy_bar": false
+    "meets_status_accuracy_bar": true
   },
   "cases": [
     {
@@ -24,7 +24,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": true,
-      "latency_ms": 2.01,
+      "latency_ms": 2.11,
       "answer": "Based on my documented experience:\n\n- The CV identifies React, Angular, and TypeScript as frontend strengths.\n- The CV lists these frontend skills: React, Angular, Vue.js, Next.js, TypeScript, Tailwind CSS, React Native / Expo, Electron, responsive and mobile-first UI.\n- At Chewy, built responsive React and Next.js front ends over Node.js and Python FastAPI back ends for customer-facing and internal workflows.",
       "citations": [
         {
@@ -50,7 +50,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": true,
-      "latency_ms": 1.4,
+      "latency_ms": 1.3,
       "answer": "Based on my documented experience:\n\n- The CV identifies PostgreSQL, MySQL, NoSQL, and Supabase for data management.\n- The CV lists these databases skills: PostgreSQL, Supabase Auth, row-level security, Realtime, Edge Functions, database triggers, functions, append-only audit design, MySQL, MongoDB and Redis.\n- At Chewy, modeled PostgreSQL and pgvector schemas with row-level security and audit-oriented design to scope access by role.",
       "citations": [
         {
@@ -70,15 +70,25 @@
       "category": "cv_direct",
       "question": "Have you built RAG applications?",
       "expected_status": "answered",
-      "actual_status": "unsupported",
-      "status_ok": false,
-      "required_terms_ok": false,
+      "actual_status": "answered",
+      "status_ok": true,
+      "required_terms_ok": true,
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
-      "passed": false,
-      "latency_ms": 1.29,
-      "answer": "I cannot verify that information from the available professional sources.",
-      "citations": [],
+      "passed": true,
+      "latency_ms": 1.31,
+      "answer": "Based on my documented experience:\n\n- The CV lists these ai skills: OpenAI and Anthropic APIs, RAG pipelines, natural-language querying, structured output validation, Claude Code, Cursor and GitHub Copilot.\n- At Chewy, shipped RAG-grounded natural-language querying and token-streamed responses as production AI features.",
+      "citations": [
+        {
+          "id": "cv-page-1",
+          "type": "resume",
+          "title": "Juan Ramos Full Stack Developer CV — page 1",
+          "file": "data/sources/Juan_Ramos_Full_Stack_Developer_redacted.pdf",
+          "page": 1,
+          "status": "source_file_to_be_added",
+          "synthetic": false
+        }
+      ],
       "exception_type": null
     },
     {
@@ -92,7 +102,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": true,
-      "latency_ms": 1.22,
+      "latency_ms": 1.19,
       "answer": "Based on my documented experience:\n\n- The CV lists these devops skills: Docker, Kubernetes, Terraform, CI/CD, Linux and deployment automation.",
       "citations": [
         {
@@ -118,7 +128,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": true,
-      "latency_ms": 1.21,
+      "latency_ms": 1.2,
       "answer": "Based on my documented experience:\n\n- Chewy: Senior Full-Stack Developer - Web, AI and Integrations (2023–2026).\n- At Chewy, the stated project was unified AI-assisted product front ends connected to Node and Python services on PostgreSQL.\n- At Chewy, built responsive React and Next.js front ends over Node.js and Python FastAPI back ends for customer-facing and internal workflows.",
       "citations": [
         {
@@ -144,7 +154,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": true,
-      "latency_ms": 1.32,
+      "latency_ms": 1.23,
       "answer": "Based on my documented experience:\n\n- Drawboard: Full-Stack Developer - Client Application Delivery (2020–2021).\n- At Drawboard, the stated project was a business-critical client application and services supporting 10k+ users.\n- At Drawboard, delivered and supported a cross-platform client application for 10k+ users, emphasizing performance and offline-capable field use.",
       "citations": [
         {
@@ -170,7 +180,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": true,
-      "latency_ms": 1.24,
+      "latency_ms": 1.32,
       "answer": "Based on my documented experience:\n\n- The CV lists these backend skills: Node.js, Express, NestJS, Java, Python, FastAPI, REST APIs, GraphQL, webhooks and event-trigger systems.\n- At Chewy, built responsive React and Next.js front ends over Node.js and Python FastAPI back ends for customer-facing and internal workflows.",
       "citations": [
         {
@@ -196,7 +206,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": false,
-      "latency_ms": 1.24,
+      "latency_ms": 1.22,
       "answer": "I cannot verify that information from the available professional sources.",
       "citations": [],
       "exception_type": null
@@ -238,7 +248,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": false,
-      "latency_ms": 0.16,
+      "latency_ms": 0.1,
       "answer": "I cannot verify employment at stakeholders at Chewy from the available CV.",
       "citations": [],
       "exception_type": null
@@ -254,7 +264,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": false,
-      "latency_ms": 1.34,
+      "latency_ms": 1.38,
       "answer": "Based on my documented experience:\n\n- Nature's Path Foods: Full-Stack Engineer - Pricing, CRM and Integrations (2021–2023).\n- At Nature's Path Foods, integrated a merchant CRM bidirectionally with finance and supply-chain systems using REST and OData to synchronize contacts and transactions and automate month-end reconciliation.\n- At Nature's Path Foods, integrated third-party services using Oracle Service Bus, JMS, SOAP and REST interfaces.",
       "citations": [
         {
@@ -280,7 +290,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": false,
-      "latency_ms": 1.35,
+      "latency_ms": 1.89,
       "answer": "Based on my documented experience:\n\n- At Nature's Path Foods, integrated third-party services using Oracle Service Bus, JMS, SOAP and REST interfaces.",
       "citations": [
         {
@@ -306,7 +316,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": true,
-      "latency_ms": 0.01,
+      "latency_ms": 0.03,
       "answer": "The available sources do not establish a definitive answer. Please ask a more specific question.",
       "citations": [],
       "exception_type": null
@@ -338,7 +348,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": true,
-      "latency_ms": 0.01,
+      "latency_ms": 0.02,
       "answer": "The available sources do not establish a definitive answer. Please ask a more specific question.",
       "citations": [],
       "exception_type": null
@@ -354,7 +364,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": true,
-      "latency_ms": 1.27,
+      "latency_ms": 1.88,
       "answer": "I cannot verify that information from the available professional sources.",
       "citations": [],
       "exception_type": null
@@ -370,7 +380,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": true,
-      "latency_ms": 0.02,
+      "latency_ms": 0.04,
       "answer": "I cannot verify employment at Google from the available CV.",
       "citations": [],
       "exception_type": null
@@ -386,7 +396,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": true,
-      "latency_ms": 1.25,
+      "latency_ms": 1.57,
       "answer": "I cannot verify that information from the available professional sources.",
       "citations": [],
       "exception_type": null
@@ -402,7 +412,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": true,
-      "latency_ms": 1.24,
+      "latency_ms": 1.74,
       "answer": "I cannot verify that information from the available professional sources.",
       "citations": [],
       "exception_type": null
@@ -418,7 +428,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": true,
-      "latency_ms": 1.24,
+      "latency_ms": 1.39,
       "answer": "I cannot verify that information from the available professional sources.",
       "citations": [],
       "exception_type": null
@@ -428,25 +438,15 @@
       "category": "unanswerable",
       "question": "Have you built quantum astrophysics software?",
       "expected_status": "unsupported",
-      "actual_status": "answered",
-      "status_ok": false,
+      "actual_status": "unsupported",
+      "status_ok": true,
       "required_terms_ok": true,
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
-      "passed": false,
-      "latency_ms": 1.31,
-      "answer": "Based on my documented experience:\n\n- At Nature's Path Foods, built configurable price management software with dynamic data-driven pricing calculations for sales quotes instead of manual spreadsheets.",
-      "citations": [
-        {
-          "id": "cv-page-2",
-          "type": "resume",
-          "title": "Juan Ramos Full Stack Developer CV — page 2",
-          "file": "data/sources/Juan_Ramos_Full_Stack_Developer_redacted.pdf",
-          "page": 2,
-          "status": "source_file_to_be_added",
-          "synthetic": false
-        }
-      ],
+      "passed": true,
+      "latency_ms": 1.26,
+      "answer": "I cannot verify that information from the available professional sources.",
+      "citations": [],
       "exception_type": null
     },
     {

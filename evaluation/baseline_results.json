@@ -8,7 +8,7 @@
     "extractive_format_proxy": 1.0,
     "refusal_correctness": 0.9286,
     "prohibited_claim_check_rate": 1.0,
-    "p95_latency_ms": 1.57,
+    "p95_latency_ms": 1.4,
     "pass_bar_status_accuracy": 0.85,
     "meets_status_accuracy_bar": false
   },
@@ -24,7 +24,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": true,
-      "latency_ms": 2.53,
+      "latency_ms": 2.01,
       "answer": "Based on my documented experience:\n\n- The CV identifies React, Angular, and TypeScript as frontend strengths.\n- The CV lists these frontend skills: React, Angular, Vue.js, Next.js, TypeScript, Tailwind CSS, React Native / Expo, Electron, responsive and mobile-first UI.\n- At Chewy, built responsive React and Next.js front ends over Node.js and Python FastAPI back ends for customer-facing and internal workflows.",
       "citations": [
         {
@@ -50,7 +50,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": true,
-      "latency_ms": 1.33,
+      "latency_ms": 1.4,
       "answer": "Based on my documented experience:\n\n- The CV identifies PostgreSQL, MySQL, NoSQL, and Supabase for data management.\n- The CV lists these databases skills: PostgreSQL, Supabase Auth, row-level security, Realtime, Edge Functions, database triggers, functions, append-only audit design, MySQL, MongoDB and Redis.\n- At Chewy, modeled PostgreSQL and pgvector schemas with row-level security and audit-oriented design to scope access by role.",
       "citations": [
         {
@@ -76,7 +76,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": false,
-      "latency_ms": 1.18,
+      "latency_ms": 1.29,
       "answer": "I cannot verify that information from the available professional sources.",
       "citations": [],
       "exception_type": null
@@ -92,7 +92,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": true,
-      "latency_ms": 1.23,
+      "latency_ms": 1.22,
       "answer": "Based on my documented experience:\n\n- The CV lists these devops skills: Docker, Kubernetes, Terraform, CI/CD, Linux and deployment automation.",
       "citations": [
         {
@@ -118,7 +118,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": true,
-      "latency_ms": 1.49,
+      "latency_ms": 1.21,
       "answer": "Based on my documented experience:\n\n- Chewy: Senior Full-Stack Developer - Web, AI and Integrations (2023–2026).\n- At Chewy, the stated project was unified AI-assisted product front ends connected to Node and Python services on PostgreSQL.\n- At Chewy, built responsive React and Next.js front ends over Node.js and Python FastAPI back ends for customer-facing and internal workflows.",
       "citations": [
         {
@@ -144,7 +144,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": true,
-      "latency_ms": 1.45,
+      "latency_ms": 1.32,
       "answer": "Based on my documented experience:\n\n- Drawboard: Full-Stack Developer - Client Application Delivery (2020–2021).\n- At Drawboard, the stated project was a business-critical client application and services supporting 10k+ users.\n- At Drawboard, delivered and supported a cross-platform client application for 10k+ users, emphasizing performance and offline-capable field use.",
       "citations": [
         {
@@ -170,7 +170,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": true,
-      "latency_ms": 1.2,
+      "latency_ms": 1.24,
       "answer": "Based on my documented experience:\n\n- The CV lists these backend skills: Node.js, Express, NestJS, Java, Python, FastAPI, REST APIs, GraphQL, webhooks and event-trigger systems.\n- At Chewy, built responsive React and Next.js front ends over Node.js and Python FastAPI back ends for customer-facing and internal workflows.",
       "citations": [
         {
@@ -196,7 +196,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": false,
-      "latency_ms": 1.18,
+      "latency_ms": 1.24,
       "answer": "I cannot verify that information from the available professional sources.",
       "citations": [],
       "exception_type": null
@@ -212,7 +212,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": false,
-      "latency_ms": 1.24,
+      "latency_ms": 1.25,
       "answer": "Based on my documented experience:\n\n- At Nature's Path Foods, implemented OpenID Connect, SAML SSO, role-based access, and LDAP / Active Directory integration for least-privilege access.",
       "citations": [
         {
@@ -238,7 +238,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": false,
-      "latency_ms": 0.12,
+      "latency_ms": 0.16,
       "answer": "I cannot verify employment at stakeholders at Chewy from the available CV.",
       "citations": [],
       "exception_type": null
@@ -254,7 +254,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": false,
-      "latency_ms": 1.19,
+      "latency_ms": 1.34,
       "answer": "Based on my documented experience:\n\n- Nature's Path Foods: Full-Stack Engineer - Pricing, CRM and Integrations (2021–2023).\n- At Nature's Path Foods, integrated a merchant CRM bidirectionally with finance and supply-chain systems using REST and OData to synchronize contacts and transactions and automate month-end reconciliation.\n- At Nature's Path Foods, integrated third-party services using Oracle Service Bus, JMS, SOAP and REST interfaces.",
       "citations": [
         {
@@ -280,7 +280,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": false,
-      "latency_ms": 1.17,
+      "latency_ms": 1.35,
       "answer": "Based on my documented experience:\n\n- At Nature's Path Foods, integrated third-party services using Oracle Service Bus, JMS, SOAP and REST interfaces.",
       "citations": [
         {
@@ -338,7 +338,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": true,
-      "latency_ms": 0.0,
+      "latency_ms": 0.01,
       "answer": "The available sources do not establish a definitive answer. Please ask a more specific question.",
       "citations": [],
       "exception_type": null
@@ -354,7 +354,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": true,
-      "latency_ms": 1.32,
+      "latency_ms": 1.27,
       "answer": "I cannot verify that information from the available professional sources.",
       "citations": [],
       "exception_type": null
@@ -386,7 +386,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": true,
-      "latency_ms": 1.47,
+      "latency_ms": 1.25,
       "answer": "I cannot verify that information from the available professional sources.",
       "citations": [],
       "exception_type": null
@@ -402,7 +402,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": true,
-      "latency_ms": 1.51,
+      "latency_ms": 1.24,
       "answer": "I cannot verify that information from the available professional sources.",
       "citations": [],
       "exception_type": null
@@ -418,7 +418,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": true,
-      "latency_ms": 1.57,
+      "latency_ms": 1.24,
       "answer": "I cannot verify that information from the available professional sources.",
       "citations": [],
       "exception_type": null
@@ -434,7 +434,7 @@
       "prohibited_claims_ok": true,
       "citation_policy_ok": true,
       "passed": false,
-      "latency_ms": 1.33,
+      "latency_ms": 1.31,
       "answer": "Based on my documented experience:\n\n- At Nature's Path Foods, built configurable price management software with dynamic data-driven pricing calculations for sales quotes instead of manual spreadsheets.",
       "citations": [
         {
